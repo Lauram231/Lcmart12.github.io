@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact • LMNOPages</title>
+  <meta name="description" content="Questions or comments? Contact LMNOPages." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="wrap header-row">
+      <a class="brand" href="index.html">
+        <img class="brand-logo" src="logo2.png" alt="LMNOPages logo" />
+        <span class="brand-name">LMNOPages</span>
+      </a>
+      <nav class="top-nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="music.html">Music</a>
+        <a href="photos.html">Photos</a>
+        <a href="contact.html" aria-current="page">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main class="wrap contact-page">
+    <h1 class="contact-heading">Have questions? Comments?</h1>
+    <p class="contact-sub">
+      I'd love to hear from you. Your thoughts, comments, feedback, or simple recommendations.
+      Leave your comment below and I'll be sure to reach out!
+    </p>
+
+    <form class="contact-form" action="#" method="post" novalidate>
+      <div class="form-row">
+        <label for="name">Name*</label>
+        <input id="name" name="name" type="text" required />
+      </div>
+
+      <div class="form-row">
+        <label for="email">Email*</label>
+        <input id="email" name="email" type="email" required />
+      </div>
+
+      <div class="form-row">
+        <label for="topic">Topic*</label>
+        <input id="topic" name="topic" type="text" required />
+      </div>
+
+      <div class="form-row">
+        <label for="message">Comments*</label>
+        <textarea id="message" name="message" rows="7" required></textarea>
+      </div>
+
+      <div class="form-actions">
+        <button class="btn" type="submit">Submit</button>
+      </div>
+
+    </form>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <small>© 2025 LMNOPages • Crafted with nostalgia at ASU</small>
+    </div>
+  </footer>
+</body>
+</html>
